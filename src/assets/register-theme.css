@@ -1,0 +1,68 @@
+/* src/assets/register-theme.css */
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 182, 193, 0.3);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ff69b4;
+}
+
+h3 {
+  font-weight: bold;
+  color: #fca5f1;
+  text-shadow: 0 0 5px #fca5f1;
+}
+
+.form-label {
+  color: #ffb7d5;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fca5f1;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #ffb6c1;
+}
+
+.btn-primary {
+  background-color: #ff0080;
+  border-color: #ff0080;
+  box-shadow: 0 0 10px #ff0080;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #d10073;
+  border-color: #d10073;
+  box-shadow: 0 0 20px #ff00aa;
+}
+
+
+.form-container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  /*padding: 30px; */
+  
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(255, 0, 128, 0.5);
+  border: 2px solid rgba(255, 0, 128, 0.3);
+
+  width: 100%;          /* Gunakan full lebar container */
+  max-width: 1200px;     /* Biar gak terlalu lebar */
+  margin: 2rem auto;    /* Tengah & beri ruang atas bawah */
+padding: 40px;
+}
